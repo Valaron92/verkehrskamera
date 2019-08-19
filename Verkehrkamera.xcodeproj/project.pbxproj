@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28918F6A18B73592009A4A6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28918F6918B73592009A4A6F /* Foundation.framework */; };
+		28918F6C18B73592009A4A6F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28918F6B18B73592009A4A6F /* CoreGraphics.framework */; };
+		28918F6E18B73592009A4A6F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28918F6D18B73592009A4A6F /* UIKit.framework */; };
+		28918F7418B73592009A4A6F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28918F7218B73592009A4A6F /* InfoPlist.strings */; };
+		28918F7618B73592009A4A6F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28918F7518B73592009A4A6F /* main.m */; };
+		28918F7A18B73592009A4A6F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28918F7918B73592009A4A6F /* AppDelegate.m */; };
+		28A1F9F818D6170F006F68D8 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 28A1F9F718D6170F006F68D8 /* libc++.dylib */; };
+		28A1F9FA18D61728006F68D8 /* libc++abi.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 28A1F9F918D61728006F68D8 /* libc++abi.dylib */; };
+		28A1F9FE18D61B51006F68D8 /* MyWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A1F9FC18D61B51006F68D8 /* MyWebView.m */; };
+		28A1F9FF18D61B51006F68D8 /* MyWebView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28A1F9FD18D61B51006F68D8 /* MyWebView.xib */; };
+		6F014C901C4643A800CC1780 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F014C8E1C4643A800CC1780 /* MasterViewController.m */; };
+		6F014C911C4643A800CC1780 /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F014C8F1C4643A800CC1780 /* MasterViewController.xib */; };
+		6F0A51541C54399A00538547 /* libAdIdAccess.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0A51521C54399A00538547 /* libAdIdAccess.a */; };
+		6F0A51551C54399A00538547 /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0A51531C54399A00538547 /* libGoogleAnalyticsServices.a */; };
+		6F0A51571C5439AB00538547 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0A51561C5439AB00538547 /* CoreData.framework */; };
+		6F0A51591C5439B900538547 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0A51581C5439B900538547 /* SystemConfiguration.framework */; };
+		6F0A515B1C5439CB00538547 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0A515A1C5439CB00538547 /* libz.tbd */; };
+		6F0A515D1C5439DA00538547 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0A515C1C5439DA00538547 /* libsqlite3.tbd */; };
+		6F0A515F1C543F7600538547 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6F0A515E1C543F7600538547 /* GoogleService-Info.plist */; };
+		6F0A51611C55071100538547 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0A51601C55071100538547 /* MessageUI.framework */; };
+		6F2B9CAB1BB86EEB00CBE566 /* RadarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2B9CA91BB86EEB00CBE566 /* RadarView.m */; };
+		6F2B9CAC1BB86EEB00CBE566 /* RadarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F2B9CAA1BB86EEB00CBE566 /* RadarView.xib */; };
+		6F5550B91BC0769C003F8B07 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F5550B81BC0769C003F8B07 /* Launch Screen.storyboard */; };
+		6F5550BB1BC07D54003F8B07 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F5550BA1BC07D54003F8B07 /* Media.xcassets */; };
+		6F5B0ED01C30796600E32CB6 /* InfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5B0ECE1C30796600E32CB6 /* InfoView.m */; };
+		6F5B0ED11C30796600E32CB6 /* InfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F5B0ECF1C30796600E32CB6 /* InfoView.xib */; };
+		6F5B0ED31C307D9E00E32CB6 /* agb.html in Resources */ = {isa = PBXBuildFile; fileRef = 6F5B0ED21C307D9E00E32CB6 /* agb.html */; };
+		6F5B0ED51C307F8800E32CB6 /* appstyle.css in Resources */ = {isa = PBXBuildFile; fileRef = 6F5B0ED41C307F8800E32CB6 /* appstyle.css */; };
+		6F5B0EDA1C32FE4F00E32CB6 /* BWView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5B0ED81C32FE4F00E32CB6 /* BWView.m */; };
+		6F5B0EDB1C32FE4F00E32CB6 /* BWView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F5B0ED91C32FE4F00E32CB6 /* BWView.xib */; };
+		6F6DE4851C4512BC0084AB0A /* MZTimerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6DE4841C4512BC0084AB0A /* MZTimerLabel.m */; };
+		6F7F0AB71BB6D0C8008F467E /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7F0AA21BB6D0C8008F467E /* DetailViewController.m */; };
+		6F7F0AB81BB6D0C8008F467E /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F7F0AA31BB6D0C8008F467E /* DetailViewController.xib */; };
+		6F7F0ABE1BB6D0C8008F467E /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7F0AAF1BB6D0C8008F467E /* TFHpple.m */; };
+		6F7F0ABF1BB6D0C8008F467E /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7F0AB11BB6D0C8008F467E /* TFHppleElement.m */; };
+		6F7F0AC01BB6D0C8008F467E /* Tutorial.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7F0AB31BB6D0C8008F467E /* Tutorial.m */; };
+		6F7F0AC11BB6D0C8008F467E /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7F0AB51BB6D0C8008F467E /* XPathQuery.m */; };
+		6F7F0AC31BB6D160008F467E /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F7F0AC21BB6D160008F467E /* libxml2.tbd */; };
+		6F82803C1BC1592600170F77 /* StartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F82803A1BC1592600170F77 /* StartView.m */; };
+		6F82803D1BC1592600170F77 /* StartView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F82803B1BC1592600170F77 /* StartView.xib */; };
+		6F8280421BC15B4E00170F77 /* HauptTabellenView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8280401BC15B4E00170F77 /* HauptTabellenView.m */; };
+		6F8280431BC15B4E00170F77 /* HauptTabellenView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F8280411BC15B4E00170F77 /* HauptTabellenView.xib */; };
+		6FE3BA281BC2C26C002C88F5 /* Kameras.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6FE3BA271BC2C26C002C88F5 /* Kameras.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		28918F6618B73592009A4A6F /* Verkehrkamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Verkehrkamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28918F6918B73592009A4A6F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		28918F6B18B73592009A4A6F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28918F6D18B73592009A4A6F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		28918F7118B73592009A4A6F /* Verkehrkamera-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Verkehrkamera-Info.plist"; sourceTree = "<group>"; };
+		28918F7318B73592009A4A6F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		28918F7518B73592009A4A6F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		28918F7718B73592009A4A6F /* Verkehrkamera-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Verkehrkamera-Prefix.pch"; sourceTree = "<group>"; };
+		28918F7818B73592009A4A6F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		28918F7918B73592009A4A6F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		28918F8B18B73593009A4A6F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		28918F9318B73593009A4A6F /* VerkehrkameraTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VerkehrkameraTests-Info.plist"; sourceTree = "<group>"; };
+		28918F9518B73593009A4A6F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		28918F9718B73593009A4A6F /* VerkehrkameraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VerkehrkameraTests.m; sourceTree = "<group>"; };
+		28A1F9F718D6170F006F68D8 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		28A1F9F918D61728006F68D8 /* libc++abi.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++abi.dylib"; path = "usr/lib/libc++abi.dylib"; sourceTree = SDKROOT; };
+		28A1F9FB18D61B51006F68D8 /* MyWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWebView.h; sourceTree = "<group>"; };
+		28A1F9FC18D61B51006F68D8 /* MyWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWebView.m; sourceTree = "<group>"; };
+		28A1F9FD18D61B51006F68D8 /* MyWebView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyWebView.xib; sourceTree = "<group>"; };
+		6F014C8D1C4643A800CC1780 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		6F014C8E1C4643A800CC1780 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		6F014C8F1C4643A800CC1780 /* MasterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MasterViewController.xib; sourceTree = "<group>"; };
+		6F0A51481C54399A00538547 /* GAI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAI.h; sourceTree = "<group>"; };
+		6F0A51491C54399A00538547 /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIDictionaryBuilder.h; sourceTree = "<group>"; };
+		6F0A514A1C54399A00538547 /* GAIEcommerceFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceFields.h; sourceTree = "<group>"; };
+		6F0A514B1C54399A00538547 /* GAIEcommerceProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProduct.h; sourceTree = "<group>"; };
+		6F0A514C1C54399A00538547 /* GAIEcommerceProductAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProductAction.h; sourceTree = "<group>"; };
+		6F0A514D1C54399A00538547 /* GAIEcommercePromotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommercePromotion.h; sourceTree = "<group>"; };
+		6F0A514E1C54399A00538547 /* GAIFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIFields.h; sourceTree = "<group>"; };
+		6F0A514F1C54399A00538547 /* GAILogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAILogger.h; sourceTree = "<group>"; };
+		6F0A51501C54399A00538547 /* GAITrackedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITrackedViewController.h; sourceTree = "<group>"; };
+		6F0A51511C54399A00538547 /* GAITracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITracker.h; sourceTree = "<group>"; };
+		6F0A51521C54399A00538547 /* libAdIdAccess.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAdIdAccess.a; sourceTree = "<group>"; };
+		6F0A51531C54399A00538547 /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
+		6F0A51561C5439AB00538547 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6F0A51581C5439B900538547 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		6F0A515A1C5439CB00538547 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		6F0A515C1C5439DA00538547 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		6F0A515E1C543F7600538547 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6F0A51601C55071100538547 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		6F2B9CA81BB86EEB00CBE566 /* RadarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadarView.h; sourceTree = "<group>"; };
+		6F2B9CA91BB86EEB00CBE566 /* RadarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadarView.m; sourceTree = "<group>"; };
+		6F2B9CAA1BB86EEB00CBE566 /* RadarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RadarView.xib; sourceTree = "<group>"; };
+		6F5550B81BC0769C003F8B07 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		6F5550BA1BC07D54003F8B07 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		6F5B0ECD1C30796600E32CB6 /* InfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoView.h; sourceTree = "<group>"; };
+		6F5B0ECE1C30796600E32CB6 /* InfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoView.m; sourceTree = "<group>"; };
+		6F5B0ECF1C30796600E32CB6 /* InfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoView.xib; sourceTree = "<group>"; };
+		6F5B0ED21C307D9E00E32CB6 /* agb.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = agb.html; sourceTree = "<group>"; };
+		6F5B0ED41C307F8800E32CB6 /* appstyle.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = appstyle.css; sourceTree = "<group>"; };
+		6F5B0ED71C32FE4F00E32CB6 /* BWView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWView.h; sourceTree = "<group>"; };
+		6F5B0ED81C32FE4F00E32CB6 /* BWView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWView.m; sourceTree = "<group>"; };
+		6F5B0ED91C32FE4F00E32CB6 /* BWView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BWView.xib; sourceTree = "<group>"; };
+		6F6DE4831C4512BC0084AB0A /* MZTimerLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MZTimerLabel.h; path = "Verkehrkamera/timer label/MZTimerLabel.h"; sourceTree = "<group>"; };
+		6F6DE4841C4512BC0084AB0A /* MZTimerLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MZTimerLabel.m; path = "Verkehrkamera/timer label/MZTimerLabel.m"; sourceTree = "<group>"; };
+		6F7F0AA11BB6D0C8008F467E /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		6F7F0AA21BB6D0C8008F467E /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		6F7F0AA41BB6D0C8008F467E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController.xib; sourceTree = "<group>"; };
+		6F7F0AAE1BB6D0C8008F467E /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
+		6F7F0AAF1BB6D0C8008F467E /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
+		6F7F0AB01BB6D0C8008F467E /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
+		6F7F0AB11BB6D0C8008F467E /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
+		6F7F0AB21BB6D0C8008F467E /* Tutorial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tutorial.h; sourceTree = "<group>"; };
+		6F7F0AB31BB6D0C8008F467E /* Tutorial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tutorial.m; sourceTree = "<group>"; };
+		6F7F0AB41BB6D0C8008F467E /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
+		6F7F0AB51BB6D0C8008F467E /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
+		6F7F0AC21BB6D160008F467E /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		6F8280391BC1592600170F77 /* StartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StartView.h; sourceTree = "<group>"; };
+		6F82803A1BC1592600170F77 /* StartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartView.m; sourceTree = "<group>"; };
+		6F82803B1BC1592600170F77 /* StartView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StartView.xib; sourceTree = "<group>"; };
+		6F82803F1BC15B4E00170F77 /* HauptTabellenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HauptTabellenView.h; sourceTree = "<group>"; };
+		6F8280401BC15B4E00170F77 /* HauptTabellenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HauptTabellenView.m; sourceTree = "<group>"; };
+		6F8280411BC15B4E00170F77 /* HauptTabellenView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HauptTabellenView.xib; sourceTree = "<group>"; };
+		6FE3BA271BC2C26C002C88F5 /* Kameras.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Kameras.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28918F6318B73592009A4A6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F0A51611C55071100538547 /* MessageUI.framework in Frameworks */,
+				6F0A515D1C5439DA00538547 /* libsqlite3.tbd in Frameworks */,
+				6F0A515B1C5439CB00538547 /* libz.tbd in Frameworks */,
+				6F0A51591C5439B900538547 /* SystemConfiguration.framework in Frameworks */,
+				6F0A51571C5439AB00538547 /* CoreData.framework in Frameworks */,
+				6F7F0AC31BB6D160008F467E /* libxml2.tbd in Frameworks */,
+				6F0A51541C54399A00538547 /* libAdIdAccess.a in Frameworks */,
+				28A1F9FA18D61728006F68D8 /* libc++abi.dylib in Frameworks */,
+				6F0A51551C54399A00538547 /* libGoogleAnalyticsServices.a in Frameworks */,
+				28A1F9F818D6170F006F68D8 /* libc++.dylib in Frameworks */,
+				28918F6C18B73592009A4A6F /* CoreGraphics.framework in Frameworks */,
+				28918F6E18B73592009A4A6F /* UIKit.framework in Frameworks */,
+				28918F6A18B73592009A4A6F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28918F5D18B73592009A4A6F = {
+			isa = PBXGroup;
+			children = (
+				6F0A51471C54399A00538547 /* analyt */,
+				6F5550BA1BC07D54003F8B07 /* Media.xcassets */,
+				28918F6F18B73592009A4A6F /* Verkehrkamera */,
+				28918F9118B73593009A4A6F /* VerkehrkameraTests */,
+				28918F6818B73592009A4A6F /* Frameworks */,
+				28918F6718B73592009A4A6F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28918F6718B73592009A4A6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28918F6618B73592009A4A6F /* Verkehrkamera.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28918F6818B73592009A4A6F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F0A51601C55071100538547 /* MessageUI.framework */,
+				6F0A515C1C5439DA00538547 /* libsqlite3.tbd */,
+				6F0A515A1C5439CB00538547 /* libz.tbd */,
+				6F0A51581C5439B900538547 /* SystemConfiguration.framework */,
+				6F0A51561C5439AB00538547 /* CoreData.framework */,
+				6F6DE4821C4512800084AB0A /* Timer label */,
+				6F7F0AC21BB6D160008F467E /* libxml2.tbd */,
+				28A1F9F918D61728006F68D8 /* libc++abi.dylib */,
+				28A1F9F718D6170F006F68D8 /* libc++.dylib */,
+				28918F6918B73592009A4A6F /* Foundation.framework */,
+				28918F6B18B73592009A4A6F /* CoreGraphics.framework */,
+				28918F6D18B73592009A4A6F /* UIKit.framework */,
+				28918F8B18B73593009A4A6F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		28918F6F18B73592009A4A6F /* Verkehrkamera */ = {
+			isa = PBXGroup;
+			children = (
+				6F1DD86B1C4BF9AE00418BF0 /* Radar RPR1 */,
+				6F5B0ECC1C30795400E32CB6 /* Info */,
+				6F014C8C1C46439900CC1780 /* staumeldung */,
+				6F5B0ED61C32FE2600E32CB6 /* Baden Wüttenberg */,
+				6F82803E1BC15B3A00170F77 /* Kamera */,
+				6F8280381BC158DF00170F77 /* start */,
+				6F2B9CAD1BB8742E00CBE566 /* Appdelegate */,
+				6F7F0A9E1BB6D0C8008F467E /* HTMLParsing */,
+				28918F7018B73592009A4A6F /* Supporting Files */,
+				28A1F9FB18D61B51006F68D8 /* MyWebView.h */,
+				28A1F9FC18D61B51006F68D8 /* MyWebView.m */,
+				28A1F9FD18D61B51006F68D8 /* MyWebView.xib */,
+			);
+			path = Verkehrkamera;
+			sourceTree = "<group>";
+		};
+		28918F7018B73592009A4A6F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F5550B81BC0769C003F8B07 /* Launch Screen.storyboard */,
+				28918F7118B73592009A4A6F /* Verkehrkamera-Info.plist */,
+				28918F7218B73592009A4A6F /* InfoPlist.strings */,
+				28918F7518B73592009A4A6F /* main.m */,
+				28918F7718B73592009A4A6F /* Verkehrkamera-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		28918F9118B73593009A4A6F /* VerkehrkameraTests */ = {
+			isa = PBXGroup;
+			children = (
+				28918F9718B73593009A4A6F /* VerkehrkameraTests.m */,
+				28918F9218B73593009A4A6F /* Supporting Files */,
+			);
+			path = VerkehrkameraTests;
+			sourceTree = "<group>";
+		};
+		28918F9218B73593009A4A6F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28918F9318B73593009A4A6F /* VerkehrkameraTests-Info.plist */,
+				28918F9418B73593009A4A6F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6F014C8C1C46439900CC1780 /* staumeldung */ = {
+			isa = PBXGroup;
+			children = (
+				6F014C8D1C4643A800CC1780 /* MasterViewController.h */,
+				6F014C8E1C4643A800CC1780 /* MasterViewController.m */,
+				6F014C8F1C4643A800CC1780 /* MasterViewController.xib */,
+			);
+			name = staumeldung;
+			sourceTree = "<group>";
+		};
+		6F0A51471C54399A00538547 /* analyt */ = {
+			isa = PBXGroup;
+			children = (
+				6F0A515E1C543F7600538547 /* GoogleService-Info.plist */,
+				6F0A51481C54399A00538547 /* GAI.h */,
+				6F0A51491C54399A00538547 /* GAIDictionaryBuilder.h */,
+				6F0A514A1C54399A00538547 /* GAIEcommerceFields.h */,
+				6F0A514B1C54399A00538547 /* GAIEcommerceProduct.h */,
+				6F0A514C1C54399A00538547 /* GAIEcommerceProductAction.h */,
+				6F0A514D1C54399A00538547 /* GAIEcommercePromotion.h */,
+				6F0A514E1C54399A00538547 /* GAIFields.h */,
+				6F0A514F1C54399A00538547 /* GAILogger.h */,
+				6F0A51501C54399A00538547 /* GAITrackedViewController.h */,
+				6F0A51511C54399A00538547 /* GAITracker.h */,
+				6F0A51521C54399A00538547 /* libAdIdAccess.a */,
+				6F0A51531C54399A00538547 /* libGoogleAnalyticsServices.a */,
+			);
+			name = analyt;
+			path = Verkehrkamera/analyt;
+			sourceTree = "<group>";
+		};
+		6F1DD86B1C4BF9AE00418BF0 /* Radar RPR1 */ = {
+			isa = PBXGroup;
+			children = (
+				6F2B9CA81BB86EEB00CBE566 /* RadarView.h */,
+				6F2B9CA91BB86EEB00CBE566 /* RadarView.m */,
+				6F2B9CAA1BB86EEB00CBE566 /* RadarView.xib */,
+			);
+			name = "Radar RPR1";
+			sourceTree = "<group>";
+		};
+		6F2B9CAD1BB8742E00CBE566 /* Appdelegate */ = {
+			isa = PBXGroup;
+			children = (
+				28918F7818B73592009A4A6F /* AppDelegate.h */,
+				28918F7918B73592009A4A6F /* AppDelegate.m */,
+			);
+			name = Appdelegate;
+			sourceTree = "<group>";
+		};
+		6F5B0ECC1C30795400E32CB6 /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				6F5B0ED41C307F8800E32CB6 /* appstyle.css */,
+				6F5B0ED21C307D9E00E32CB6 /* agb.html */,
+				6F5B0ECD1C30796600E32CB6 /* InfoView.h */,
+				6F5B0ECE1C30796600E32CB6 /* InfoView.m */,
+				6F5B0ECF1C30796600E32CB6 /* InfoView.xib */,
+			);
+			name = Info;
+			sourceTree = "<group>";
+		};
+		6F5B0ED61C32FE2600E32CB6 /* Baden Wüttenberg */ = {
+			isa = PBXGroup;
+			children = (
+				6F5B0ED71C32FE4F00E32CB6 /* BWView.h */,
+				6F5B0ED81C32FE4F00E32CB6 /* BWView.m */,
+				6F5B0ED91C32FE4F00E32CB6 /* BWView.xib */,
+			);
+			name = "Baden Wüttenberg";
+			sourceTree = "<group>";
+		};
+		6F6DE4821C4512800084AB0A /* Timer label */ = {
+			isa = PBXGroup;
+			children = (
+				6F6DE4831C4512BC0084AB0A /* MZTimerLabel.h */,
+				6F6DE4841C4512BC0084AB0A /* MZTimerLabel.m */,
+			);
+			name = "Timer label";
+			sourceTree = "<group>";
+		};
+		6F7F0A9E1BB6D0C8008F467E /* HTMLParsing */ = {
+			isa = PBXGroup;
+			children = (
+				6F7F0AA11BB6D0C8008F467E /* DetailViewController.h */,
+				6F7F0AA21BB6D0C8008F467E /* DetailViewController.m */,
+				6F7F0AA31BB6D0C8008F467E /* DetailViewController.xib */,
+				6F7F0AAE1BB6D0C8008F467E /* TFHpple.h */,
+				6F7F0AAF1BB6D0C8008F467E /* TFHpple.m */,
+				6F7F0AB01BB6D0C8008F467E /* TFHppleElement.h */,
+				6F7F0AB11BB6D0C8008F467E /* TFHppleElement.m */,
+				6F7F0AB21BB6D0C8008F467E /* Tutorial.h */,
+				6F7F0AB31BB6D0C8008F467E /* Tutorial.m */,
+				6F7F0AB41BB6D0C8008F467E /* XPathQuery.h */,
+				6F7F0AB51BB6D0C8008F467E /* XPathQuery.m */,
+			);
+			path = HTMLParsing;
+			sourceTree = "<group>";
+		};
+		6F8280381BC158DF00170F77 /* start */ = {
+			isa = PBXGroup;
+			children = (
+				6F8280391BC1592600170F77 /* StartView.h */,
+				6F82803A1BC1592600170F77 /* StartView.m */,
+				6F82803B1BC1592600170F77 /* StartView.xib */,
+			);
+			name = start;
+			sourceTree = "<group>";
+		};
+		6F82803E1BC15B3A00170F77 /* Kamera */ = {
+			isa = PBXGroup;
+			children = (
+				6FE3BA271BC2C26C002C88F5 /* Kameras.plist */,
+				6F82803F1BC15B4E00170F77 /* HauptTabellenView.h */,
+				6F8280401BC15B4E00170F77 /* HauptTabellenView.m */,
+				6F8280411BC15B4E00170F77 /* HauptTabellenView.xib */,
+			);
+			name = Kamera;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28918F6518B73592009A4A6F /* Verkehrkamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28918F9B18B73593009A4A6F /* Build configuration list for PBXNativeTarget "Verkehrkamera" */;
+			buildPhases = (
+				28918F6218B73592009A4A6F /* Sources */,
+				28918F6318B73592009A4A6F /* Frameworks */,
+				28918F6418B73592009A4A6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Verkehrkamera;
+			productName = Verkehrkamera;
+			productReference = 28918F6618B73592009A4A6F /* Verkehrkamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28918F5E18B73592009A4A6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Markus;
+				TargetAttributes = {
+					28918F6518B73592009A4A6F = {
+						DevelopmentTeam = 87A865SN53;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 28918F6118B73592009A4A6F /* Build configuration list for PBXProject "Verkehrkamera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28918F5D18B73592009A4A6F;
+			productRefGroup = 28918F6718B73592009A4A6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28918F6518B73592009A4A6F /* Verkehrkamera */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28918F6418B73592009A4A6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F82803D1BC1592600170F77 /* StartView.xib in Resources */,
+				6F5550BB1BC07D54003F8B07 /* Media.xcassets in Resources */,
+				6F5B0EDB1C32FE4F00E32CB6 /* BWView.xib in Resources */,
+				6F014C911C4643A800CC1780 /* MasterViewController.xib in Resources */,
+				6F5B0ED31C307D9E00E32CB6 /* agb.html in Resources */,
+				6FE3BA281BC2C26C002C88F5 /* Kameras.plist in Resources */,
+				6F0A515F1C543F7600538547 /* GoogleService-Info.plist in Resources */,
+				6F5B0ED11C30796600E32CB6 /* InfoView.xib in Resources */,
+				6F5B0ED51C307F8800E32CB6 /* appstyle.css in Resources */,
+				6F5550B91BC0769C003F8B07 /* Launch Screen.storyboard in Resources */,
+				6F8280431BC15B4E00170F77 /* HauptTabellenView.xib in Resources */,
+				6F2B9CAC1BB86EEB00CBE566 /* RadarView.xib in Resources */,
+				28A1F9FF18D61B51006F68D8 /* MyWebView.xib in Resources */,
+				6F7F0AB81BB6D0C8008F467E /* DetailViewController.xib in Resources */,
+				28918F7418B73592009A4A6F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28918F6218B73592009A4A6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28918F7A18B73592009A4A6F /* AppDelegate.m in Sources */,
+				6F8280421BC15B4E00170F77 /* HauptTabellenView.m in Sources */,
+				28A1F9FE18D61B51006F68D8 /* MyWebView.m in Sources */,
+				28918F7618B73592009A4A6F /* main.m in Sources */,
+				6F7F0AC01BB6D0C8008F467E /* Tutorial.m in Sources */,
+				6F2B9CAB1BB86EEB00CBE566 /* RadarView.m in Sources */,
+				6F7F0ABE1BB6D0C8008F467E /* TFHpple.m in Sources */,
+				6F82803C1BC1592600170F77 /* StartView.m in Sources */,
+				6F7F0AC11BB6D0C8008F467E /* XPathQuery.m in Sources */,
+				6F014C901C4643A800CC1780 /* MasterViewController.m in Sources */,
+				6F5B0ED01C30796600E32CB6 /* InfoView.m in Sources */,
+				6F7F0AB71BB6D0C8008F467E /* DetailViewController.m in Sources */,
+				6F7F0ABF1BB6D0C8008F467E /* TFHppleElement.m in Sources */,
+				6F6DE4851C4512BC0084AB0A /* MZTimerLabel.m in Sources */,
+				6F5B0EDA1C32FE4F00E32CB6 /* BWView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		28918F7218B73592009A4A6F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28918F7318B73592009A4A6F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		28918F9418B73593009A4A6F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28918F9518B73593009A4A6F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6F7F0AA31BB6D0C8008F467E /* DetailViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6F7F0AA41BB6D0C8008F467E /* en */,
+			);
+			name = DetailViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28918F9918B73593009A4A6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		28918F9A18B73593009A4A6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28918F9C18B73593009A4A6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Verkehrkamera/Verkehrkamera-Prefix.pch";
+				HEADER_SEARCH_PATHS = "${SDKROOT}/usr/include/libxml2";
+				INFOPLIST_FILE = "Verkehrkamera/Verkehrkamera-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Verkehrkamera/analyt",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.markus.Verkehrskamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		28918F9D18B73593009A4A6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Verkehrkamera/Verkehrkamera-Prefix.pch";
+				HEADER_SEARCH_PATHS = "${SDKROOT}/usr/include/libxml2";
+				INFOPLIST_FILE = "Verkehrkamera/Verkehrkamera-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Verkehrkamera/analyt",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.markus.Verkehrskamera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28918F6118B73592009A4A6F /* Build configuration list for PBXProject "Verkehrkamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28918F9918B73593009A4A6F /* Debug */,
+				28918F9A18B73593009A4A6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28918F9B18B73593009A4A6F /* Build configuration list for PBXNativeTarget "Verkehrkamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28918F9C18B73593009A4A6F /* Debug */,
+				28918F9D18B73593009A4A6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28918F5E18B73592009A4A6F /* Project object */;
+}

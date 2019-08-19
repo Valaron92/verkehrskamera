@@ -1,0 +1,954 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>berlin-text</key>
+	<array>
+		<string>Heerstraße / Passenheimer Straße (Portal P16) Blickrichtung: West</string>
+		<string>Heerstraße / Passenheimer Straße (Portal P17) Blickrichtung: Ost</string>
+		<string>Heerstraße / Passenheimer Straße Blickrichtung: Süd Heerstraße</string>
+		<string>Heerstraße / Flatowallee (Portal P13) Blickrichtung: West</string>
+		<string>Heerstraße / Flatowallee (Portal P14) Blickrichtung: Ost</string>
+		<string>Heerstraße / Flatowallee Blickrichtung: Süd Heerstraße</string>
+		<string>Heerstraße / Jaffestraße (Portal P5) Blickrichtung: West</string>
+		<string>Heerstraße / Jaffestraße (Portal P6) Blickrichtung: Ost</string>
+		<string>Heerstraße / Jaffestraße Blickrichtung: Südost Jaffestraße</string>
+		<string>Heerstraße / Theodor-Heus-Platz (Portal P2) Blickrichtung: Ost Theodor-Heus-Platz</string>
+		<string>Heerstraße / Theodor-Heus-Platz (Portal P2) Blickrichtung: West Jafferstraße</string>
+		<string>Heerstraße / Theodor-Heus-Platz (Süd) Blickrichtung: West Masurenallee</string>
+		<string>Theodor-Heus-Platz (Nord) Blickrichtung: Kaiserdamm</string>
+		<string>Theodor-Heus-Platz (Nord) Blickrichtung: Reichstraße</string>
+		<string>Theodor-Heus-Platz Blickrichtung: Reichstraße</string>
+		<string>Steubenplatz Blickrichtung: Theodor-Heus-Platz</string>
+		<string>Steubenplatz Blickrichtung: Theodor-Heus-Platz</string>
+		<string>Steubenplatz Blickrichtung: Olympische Straße</string>
+		<string>Alt-Moabit / Rathenower Straße Blickrichtung: West Alt-Moabit</string>
+		<string>Alt-Moabit / Rathenower Straße Blickrichtung: Süd Paulstraße</string>
+		<string>Alt-Moabit / Rathenower Straße Blickrichtung: Ost Alt-Moabit</string>
+		<string>Alt-Moabit / Invalidenstraße Blickrichtung: Invalidenstraße</string>
+		<string>Alt-Moabit / Invalidenstraße Blickrichtung: Alt-Moabit</string>
+		<string>Ernst-Reuter-Platz Blickrichtung: Ernst-Reuter-Platz</string>
+		<string>Ernst-Reuter-Platz Blickrichtung: Bismarckstraße</string>
+		<string>Ernst-Reuter-Platz Blickrichtung: Hardenbergstraße</string>
+		<string>Ernst-Reuter-Platz Blickrichtung: Straße des 17. Juni</string>
+		<string>Ernst-Reuter-Platz Blickrichtung: Otto-Suhr-Allee</string>
+		<string>Klingelhöferstraße Blickrichtung: Nord Großer Stern</string>
+		<string>---30----</string>
+		<string>Klingelhöferstraße Blickrichtung: Ost Von-der-Heydt-Straße</string>
+		<string>Messedamm / Masurenallee / Neue Kantstraße Blickrichtung: Messedamm (Süd)</string>
+		<string>Messedamm / Masurenallee / Neue Kantstraße Blickrichtung: Masurenallee (West)</string>
+		<string>Messedamm / Masurenallee / Neue Kantstraße Blickrichtung: Neue Kantstraße (Ost)</string>
+		<string>Messedamm / Masurenallee / Neue Kantstraße Blickrichtung: Messedamm (Nord)</string>
+		<string>Messedamm / Masurenallee / Neue Kantstraße Blickrichtung: Halenseestraße (Süd)</string>
+		<string>Messedamm / Halenseestraße Blickrichtung: Halenseestraße (Süd)</string>
+		<string>Messedamm / Halenseestraße Blickrichtung Messedamm (Nordost)</string>
+		<string>Messedamm / Halenseestraße Blickrichtung Messedamm (Nord)</string>
+		<string>Messedamm / Halenseestraße Blickrichtung Messedamm (Süd)</string>
+	</array>
+	<key>berlin-url</key>
+	<array>
+		<string>http://vmz-kameras.verwalt-berlin.de/PicServlet?cam=Cam%20001</string>
+		<string>http://vmz-kameras.verwalt-berlin.de/PicServlet?cam=Cam%20002</string>
+		<string>http://vmz-kameras.verwalt-berlin.de/PicServlet?cam=Cam%20003</string>
+		<string>http://vmz-kameras.verwalt-berlin.de/PicServlet?cam=Cam%20004</string>
+		<string>http://vmz-kameras.verwalt-berlin.de/PicServlet?cam=Cam%20005</string>
+		<string>http://vmz-kameras.verwalt-berlin.de/PicServlet?cam=Cam%20006</string>
+		<string>http://vmz-kameras.verwalt-berlin.de/PicServlet?cam=Cam%20007</string>
+		<string>http://vmz-kameras.verwalt-berlin.de/PicServlet?cam=Cam%20008</string>
+		<string>http://vmz-kameras.verwalt-berlin.de/PicServlet?cam=Cam%20009</string>
+		<string>http://vmz-kameras.verwalt-berlin.de/PicServlet?cam=Cam%20010</string>
+		<string>http://vmz-kameras.verwalt-berlin.de/PicServlet?cam=Cam%20011</string>
+		<string>http://vmz-kameras.verwalt-berlin.de/PicServlet?cam=Cam%20012</string>
+		<string>http://vmz-kameras.verwalt-berlin.de/PicServlet?cam=Cam%20013</string>
+		<string>http://vmz-kameras.verwalt-berlin.de/PicServlet?cam=Cam%20014</string>
+		<string>http://vmz-kameras.verwalt-berlin.de/PicServlet?cam=Cam%20015</string>
+		<string>http://vmz-kameras.verwalt-berlin.de/PicServlet?cam=Cam%20016</string>
+		<string>http://vmz-kameras.verwalt-berlin.de/PicServlet?cam=Cam%20017</string>
+		<string>http://vmz-kameras.verwalt-berlin.de/PicServlet?cam=Cam%20018</string>
+		<string>http://vmz-kameras.verwalt-berlin.de/PicServlet?cam=Cam%20019</string>
+		<string>http://vmz-kameras.verwalt-berlin.de/PicServlet?cam=Cam%20020</string>
+		<string>http://vmz-kameras.verwalt-berlin.de/PicServlet?cam=Cam%20021</string>
+		<string>http://vmz-kameras.verwalt-berlin.de/PicServlet?cam=Cam%20022</string>
+		<string>http://vmz-kameras.verwalt-berlin.de/PicServlet?cam=Cam%20023</string>
+		<string>http://vmz-kameras.verwalt-berlin.de/PicServlet?cam=Cam%20024</string>
+		<string>http://vmz-kameras.verwalt-berlin.de/PicServlet?cam=Cam%20025</string>
+		<string>http://vmz-kameras.verwalt-berlin.de/PicServlet?cam=Cam%20026</string>
+		<string>http://vmz-kameras.verwalt-berlin.de/PicServlet?cam=Cam%20027</string>
+		<string>http://vmz-kameras.verwalt-berlin.de/PicServlet?cam=Cam%20028</string>
+		<string>http://vmz-kameras.verwalt-berlin.de/PicServlet?cam=Cam%20029</string>
+		<string>http://vmz-kameras.verwalt-berlin.de/PicServlet?cam=Cam%20030</string>
+		<string>http://vmz-kameras.verwalt-berlin.de/PicServlet?cam=Cam%20031</string>
+		<string>http://vmz-kameras.verwalt-berlin.de/PicServlet?cam=Cam%20032</string>
+		<string>http://vmz-kameras.verwalt-berlin.de/PicServlet?cam=Cam%20033</string>
+		<string>http://vmz-kameras.verwalt-berlin.de/PicServlet?cam=Cam%20034</string>
+		<string>http://vmz-kameras.verwalt-berlin.de/PicServlet?cam=Cam%20035</string>
+		<string>http://vmz-kameras.verwalt-berlin.de/PicServlet?cam=Cam%20036</string>
+		<string>http://vmz-kameras.verwalt-berlin.de/PicServlet?cam=Cam%20037</string>
+		<string>http://vmz-kameras.verwalt-berlin.de/PicServlet?cam=Cam%20038</string>
+		<string>http://vmz-kameras.verwalt-berlin.de/PicServlet?cam=Cam%20039</string>
+		<string>http://vmz-kameras.verwalt-berlin.de/PicServlet?cam=Cam%20040</string>
+	</array>
+	<key>bremen-text</key>
+	<array>
+		<string>A281 Pylon</string>
+		<string>Am Brill</string>
+		<string>Autobahnzubringer Überseestadt</string>
+		<string>B6/B75 Höhe: Neuenlander Straße</string>
+		<string>B75 Auffahrt Huchting </string>
+		<string>Concordiatunnel Schwachhauser Heerstraße</string>
+		<string>Nord/West-Knoten Höhe: Stephanibrücke </string>
+		<string>Utbremer Tunnel Schilderbrücke</string>
+	</array>
+	<key>bremen-url</key>
+	<array>
+		<string>http://vmz.bremen.de/webcam/?tx_nnvmzhbbase_webcamproxy[poi]=18</string>
+		<string>http://vmz.bremen.de/webcam/?tx_nnvmzhbbase_webcamproxy[poi]=17</string>
+		<string>http://vmz.bremen.de/webcam/?tx_nnvmzhbbase_webcamproxy[poi]=14</string>
+		<string>http://vmz.bremen.de/webcam/?tx_nnvmzhbbase_webcamproxy[poi]=13</string>
+		<string>http://vmz.bremen.de/webcam/?tx_nnvmzhbbase_webcamproxy[poi]=12</string>
+		<string>http://vmz.bremen.de/webcam/?tx_nnvmzhbbase_webcamproxy[poi]=10</string>
+		<string>https://vmz.bremen.de/webcam/image/webcam-stephanibruecke</string>
+		<string>https://vmz.bremen.de/webcam/image/utbremer-tunnel-schilderbruecke-1</string>
+	</array>
+	<key>niedersachsen-text</key>
+	<array>
+		<string>A2 AD Han.-West </string>
+		<string>A2 AS Han.-Bothfeld</string>
+		<string>A2 AS Han.-Lahe</string>
+		<string>A2 Bad Nenndorf</string>
+		<string>A2 Herrenhausen </string>
+		<string>A7 AD Hannover-Süd </string>
+		<string>A7 AS Han.-Anderten </string>
+		<string>A7 AS Laatzen </string>
+		<string>A7 AS Mellendorf </string>
+		<string>A7 Grossburgwedel </string>
+		<string>A7 Rst. Wülferode</string>
+	</array>
+	<key>niedersachsen-url</key>
+	<array>
+		<string>https://www.vmz-niedersachsen.de/webcam/image/a2-stelinger-strasse-25</string>
+		<string>https://www.vmz-niedersachsen.de/webcam/image/a2-bothfeld-19</string>
+		<string>https://www.vmz-niedersachsen.de/webcam/image/a2-lahe-24</string>
+		<string>https://www.vmz-niedersachsen.de/webcam/image/a2-bad-nenndorf-15</string>
+		<string>https://www.vmz-niedersachsen.de/webcam/image/a2-herrenhausen-26</string>
+		<string>https://www.vmz-niedersachsen.de/webcam/image/a7-ad-hannover-sued-16</string>
+		<string>https://www.vmz-niedersachsen.de/webcam/image/a7-as-anderten-20</string>
+		<string>https://www.vmz-niedersachsen.de/webcam/image/a7-laatzen-17</string>
+		<string>https://www.vmz-niedersachsen.de/webcam/image/a7-mellendorf-23</string>
+		<string>https://www.vmz-niedersachsen.de/webcam/image/a7-grossburgwedel-22</string>
+		<string>https://www.vmz-niedersachsen.de/webcam/image/a7-rst-wuelferode-18</string>
+	</array>
+	<key>hessen-text</key>
+	<array>
+		<string>A671 Mainspitz-Dreieck</string>
+		<string>A66 Wiesbaden Mainzer Straße</string>
+		<string>A3 Hanau</string>
+		<string>A3 Mönchhof-Dreieck</string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+	</array>
+	<key>hessen-url</key>
+	<array>
+		<string>https://verkehrsservice.hessen.de/syncdata/img/143_R.jpg</string>
+		<string>https://verkehrsservice.hessen.de/syncdata/img/148_R.jpg</string>
+		<string>https://verkehrsservice.hessen.de/syncdata/video/k3001.mp4</string>
+		<string>https://verkehrsservice.hessen.de/syncdata/video/k3425.mp4</string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string></string>
+	</array>
+	<key>bayern-text-1</key>
+	<array>
+		<string>Bessenbach - Weibersbrunn</string>
+		<string>Weibersbrunn - Bessenbach</string>
+		<string>Kist Richtung</string>
+		<string>Kist Richtung</string>
+		<string>Heidingsfeld</string>
+		<string>Heidingsfeld</string>
+		<string>Rottendorf</string>
+		<string>Rottendorf</string>
+		<string>Frauenaurach, Erlangen-West</string>
+		<string>Frauenaurach, Erlangen</string>
+		<string>Tennenlohe</string>
+		<string>Tennenlohe</string>
+		<string>Behringersdorf - Nürnberg-Nord</string>
+		<string>Passau</string>
+	</array>
+	<key>bayern-detail-1</key>
+	<array>
+		<string>Richtung südost Km 227</string>
+		<string>Richtung nordwest Km 227</string>
+		<string>Richtung südost Km 280</string>
+		<string>Richtung nordwest Km 280</string>
+		<string>Richtung ost, Nürnberg Km 286</string>
+		<string>Richtung west, Nürnberg Km 286</string>
+		<string>Richtung norddost, Nürnberg Km 299</string>
+		<string>Richtung südwest, Frankfurt Km 299</string>
+		<string>Richtung nordwest, Frankfurt Km 372</string>
+		<string>Richtung nordwest, Frankfurt Km 378</string>
+		<string>Richtung südost, Regensburg Km 385</string>
+		<string>Richtung nordwest, Frankfurt Km 382</string>
+		<string>Richtung nordwest, Frankfurt Km 395</string>
+		<string>Richtung Südost</string>
+	</array>
+	<key>bayern-url-1</key>
+	<array>
+		<string>http://www.bayerninfo.de/webcams/images/a3frankfurt-wuerzburg/192.168.127.11.jpg</string>
+		<string>http://www.bayerninfo.de/webcams/images/a3wuerzburg-frankfurt/192.168.127.12.jpg</string>
+		<string>http://www.bayerninfo.de/webcams/images/a3frankfurt-wuerzburg/192.168.126.11.jpg</string>
+		<string>http://www.bayerninfo.de/webcams/images/a3wuerzburg-frankfurt/192.168.126.12.jpg</string>
+		<string>http://www.bayerninfo.de/webcams/images/a3frankfurt-wuerzburg/192.168.128.11.jpg</string>
+		<string>http://www.bayerninfo.de/webcams/images/a3wuerzburg-frankfurt/192.168.128.12.jpg</string>
+		<string>http://www.bayerninfo.de/webcams/images/a3frankfurt-wuerzburg/192.168.129.12.jpg</string>
+		<string>http://www.bayerninfo.de/webcams/images/a3wuerzburg-frankfurt/192.168.129.11.jpg</string>
+		<string>http://www.bayerninfo.de/webcams/images/a3regensburg-wuerzburg/192.168.124.11.jpg</string>
+		<string>http://www.bayerninfo.de/webcams/images/a3regensburg-wuerzburg/192.168.123.11.jpg</string>
+		<string>http://www.bayerninfo.de/webcams/images/a3wuerzburg-regensburg/192.168.122.11.jpg</string>
+		<string>http://www.bayerninfo.de/webcams/images/a3regensburg-wuerzburg/192.168.114.11.jpg</string>
+		<string>http://www.bayerninfo.de/webcams/images/a3regensburg-wuerzburg/192.168.121.11.jpg</string>
+		<string>http://www.bayerninfo.de/webcams/images/a3regensburg-passau/mobil210251.jpg</string>
+	</array>
+	<key>bayern-text-2</key>
+	<array>
+		<string>Nürnberg-Süd - Roth</string>
+		<string>Nürnberg-Süd - Roth</string>
+		<string>Nürnberg Roth - Langwasser</string>
+		<string>Nürnberg-Ost - Langwasser</string>
+		<string>Dreieck Nürnberg-Ost</string>
+	</array>
+	<key>bayern-detail-2</key>
+	<array>
+		<string>Richtung west, Heilbronn Km 782 </string>
+		<string>Richtung west, Heilbronn Km 788 </string>
+		<string>Richtung ost, Amberg Km 789 </string>
+		<string>Richtung west, Heilbronn Km 792 </string>
+		<string>Blickrichtung Westen, Heilbronn Km 794 </string>
+	</array>
+	<key>bayern-url-2</key>
+	<array>
+		<string>http://www.bayerninfo.de/webcams/images/a6nuremberg-heilbronn/192.168.110.11.jpg</string>
+		<string>http://www.bayerninfo.de/webcams/images/a6nuremberg-heilbronn/192.168.113.11.jpg</string>
+		<string>http://www.bayerninfo.de/webcams/images/a6heilbronn-nuremberg/192.168.108.11.jpg</string>
+		<string>http://www.bayerninfo.de/webcams/images/a6nuremberg-heilbronn/192.168.115.11.jpg</string>
+		<string>http://www.bayerninfo.de/webcams/images/a6nuremberg-heilbronn/192.168.116.11.jpg</string>
+	</array>
+	<key>bayern-text-3</key>
+	<array>
+		<string>Dreieck Fulda - Bad Brückenau - Volkers </string>
+		<string>Dreieck Hittistetten </string>
+		<string>Altenstadt - Dettingen Illerbrücke </string>
+		<string>Dreieck Algäu - Oy-Mittelberg, Rottachtal </string>
+	</array>
+	<key>bayern-detail-3</key>
+	<array>
+		<string>Richtung süd, Würzburg Km 590 </string>
+		<string>Blickrichtung Norden Würzburg Km 852 </string>
+		<string>Blickrichtung Süden, Memmingen Km 874 </string>
+		<string>Blickrichtung Osten, Füssen Km 936 </string>
+	</array>
+	<key>bayern-url-3</key>
+	<array>
+		<string>http://www.bayerninfo.de/webcams/images/a7fulda-fuessen/mobil002.jpg</string>
+		<string>http://www.bayerninfo.de/webcams/images/a7fulda-fuessen/mobil211155.jpg</string>
+		<string>http://www.bayerninfo.de/webcams/images/a7fulda-fuessen/mobil210139.jpg</string>
+		<string>http://www.bayerninfo.de/webcams/images/a7fulda-fuessen/mobil211131.jpg</string>
+	</array>
+	<key>bayern-text-4</key>
+	<array>
+		<string>Weyarn - Irschenberg, Seehamer See </string>
+		<string>Weyarn - Irschenberg, Leitzach </string>
+		<string>Irschenberg </string>
+		<string>Frasdorf - Bernau </string>
+		<string>Neukirchen - Fuchssteig, Atzelbachbrücke </string>
+	</array>
+	<key>bayern-detail-4</key>
+	<array>
+		<string>Richtung Osten, Salzburg Km 35 </string>
+		<string>Richtung Osten, Salzburg Km 39 </string>
+		<string>Richtung Osten, Salzburg Km 41</string>
+		<string>Richtung Osten, Salzburg Km 72 </string>
+		<string>Richtung Osten, Salzburg Km 109 </string>
+	</array>
+	<key>bayern-url-4</key>
+	<array>
+		<string>http://www.bayerninfo.de/webcams/images/a8munich-ad-inntal/mobil210059.jpg</string>
+		<string>http://www.bayerninfo.de/webcams/images/a8munich-ad-inntal/mobil210051.jpg</string>
+		<string>http://www.bayerninfo.de/webcams/images/a8munich-ad-inntal/mobil210043.jpg</string>
+		<string>http://www.bayerninfo.de/webcams/images/a8ad-inntal-salzburg/mobil211067.jpg</string>
+		<string>http://www.bayerninfo.de/webcams/images/a8ad-inntal-salzburg/mobil211083.jpg</string>
+	</array>
+	<key>bayern-text-5</key>
+	<array>
+		<string>Münchsberg </string>
+		<string>Bindlacher Berg </string>
+		<string>Hormersdorf - Schnaittach </string>
+		<string>Nürnberg Lauf </string>
+		<string>A9 Nürnberg Fischbach </string>
+		<string>A9 Nürnberg Fischbach </string>
+		<string>Nürnberg Ost </string>
+		<string>Nürnberg Ost </string>
+		<string>Dreieck - Nürnberg/Feucht </string>
+		<string>Rasthof - Nürnberg/Feucht </string>
+		<string>Ingolstadt - Manching </string>
+		<string>Langenbruck - Holledau, Rohrbach </string>
+		<string>Langenbruck - Holledau, Rohrbach</string>
+		<string>Rasthof - Holledau, Geisenhausen </string>
+		<string>Ausfahrt Pfaffenhofen, Schweitenkirchen </string>
+		<string>Pfaffenhofen - Allershausen, Paunzhausen </string>
+		<string>Allershausen </string>
+		<string>Schwabing</string>
+	</array>
+	<key>bayern-detail-5</key>
+	<array>
+		<string>Blickrichtung nord - Leipzig, km 273 </string>
+		<string>Blickrichtung nord - Leipzig, km 297 </string>
+		<string>Blickrichtung süd - München, km 355 </string>
+		<string>Blickrichtung süd - München, km 372 </string>
+		<string>Blickrichtung nord - Leipzig, km 375 </string>
+		<string>Blickrichtung süd - Leipzig, km 375 </string>
+		<string>Blickrichtung nord - Leipzig, km 380 </string>
+		<string>Blickrichtung süd - München, km 380 </string>
+		<string>Blickrichtung nord - Nürnberg, km 387 </string>
+		<string>Blickrichtung süd - München km 385 </string>
+		<string>Blickrichtung süd - München, km 463 </string>
+		<string>Blickrichtung süd - München, km 478 </string>
+		<string>Blickrichtung süd - München, km 480 </string>
+		<string>Blickrichtung süd - München, km 484 </string>
+		<string>Blickrichtung süd - München, km 490 </string>
+		<string>Blickrichtung süd - München, km 495 </string>
+		<string>Blickrichtung süd - München, km 498 </string>
+		<string>Blickrichtung süd - München, km 529 </string>
+	</array>
+	<key>bayern-url-5</key>
+	<array>
+		<string>http://www.bayerninfo.de/webcams/images/a9nuremberg-hof/192.168.125.11.jpg</string>
+		<string>http://www.bayerninfo.de/webcams/images/a9nuremberg-bygrenze/mobil001.jpg</string>
+		<string>http://www.bayerninfo.de/webcams/images/a9hof-nuremberg/mobil003.jpg</string>
+		<string>http://www.bayerninfo.de/webcams/images/a9hof-nuremberg/192.168.105.11.jpg</string>
+		<string>http://www.bayerninfo.de/webcams/images/a9hof-nuremberg/192.168.109.11.jpg</string>
+		<string>http://www.bayerninfo.de/webcams/images/a9hof-nuremberg/192.168.109.11.jpg</string>
+		<string>http://www.bayerninfo.de/webcams/images/a9nuremberg-hof/192.168.102.12.jpg</string>
+		<string>http://www.bayerninfo.de/webcams/images/a9byboarder-nuremberg/192.168.102.11.jpg</string>
+		<string>http://www.bayerninfo.de/webcams/images/A9Munich-Nuremberg/192.168.104.11.jpg</string>
+		<string>http://www.bayerninfo.de/webcams/images/a9byboarder-nuremberg/192.168.117.11.jpg</string>
+		<string>http://www.bayerninfo.de/webcams/images/A9Nuremberg-Munich/mobil200091.jpg</string>
+		<string>http://www.bayerninfo.de/webcams/images/A9Nuremberg-Munich/mobil200059.jpg</string>
+		<string>http://www.bayerninfo.de/webcams/images/A9Nuremberg-Munich/mobil200052.jpg</string>
+		<string>http://www.bayerninfo.de/webcams/images/A9Nuremberg-Munich/mobil200043.jpg</string>
+		<string>http://www.bayerninfo.de/webcams/images/A9Nuremberg-Munich/mobil200027.jpg</string>
+		<string>http://www.bayerninfo.de/webcams/images/A9Nuremberg-Munich/mobil200011.jpg</string>
+		<string>http://www.bayerninfo.de/webcams/images/A9Nuremberg-Munich/mobil200003.jpg</string>
+		<string>http://www.bayerninfo.de/webcams/images/A9Nuremberg-Munich/a9-km529-brm.jpg</string>
+	</array>
+	<key>bayern-text-6</key>
+	<array>
+		<string>Dreieck München-Feldmoching </string>
+		<string>Dreieck München-Feldmoching </string>
+		<string>Oberschleißheim </string>
+		<string>Altdorf - Landshut-West, Pfettrachbrücke </string>
+	</array>
+	<key>bayern-detail-6</key>
+	<array>
+		<string>Blickrichtung süd - München, km 0 </string>
+		<string>Blickrichtung nord - Deggendorf, km 1 </string>
+		<string>Blickrichtung süd - München, km 7 </string>
+		<string>Blickrichtung süd - München, km 61</string>
+	</array>
+	<key>bayern-url-6</key>
+	<array>
+		<string>http://www.bayerninfo.de/webcams/images/A92Munich-Deggendorf/a92-km001-brm.jpg</string>
+		<string>http://www.bayerninfo.de/webcams/images/A92Munich-Deggendorf/a92-km001-brd.jpg</string>
+		<string>http://www.bayerninfo.de/webcams/images/A92Munich-Deggendorf/mobil210011.jpg</string>
+		<string>http://www.bayerninfo.de/webcams/images/A92Munich-Deggendorf/mobil211163.jpg</string>
+	</array>
+	<key>NRW-text-1</key>
+	<array>
+		<string>Dreieck München-Feldmoching </string>
+		<string>Dreieck München-Feldmoching </string>
+		<string>Oberschleißheim </string>
+		<string>Altdorf - Landshut-West, Pfettrachbrücke </string>
+	</array>
+	<key>NRW-detail-1</key>
+	<array>
+		<string>Blickrichtung süd - München, km 0 </string>
+		<string>Blickrichtung nord - Deggendorf, km 1 </string>
+		<string>Blickrichtung süd - München, km 7 </string>
+		<string>Blickrichtung süd - München, km 61</string>
+	</array>
+	<key>NRW-url-1</key>
+	<array>
+		<string>http://www.bayerninfo.de/webcams/images/A92Munich-Deggendorf/a92-km001-brm.jpg</string>
+		<string>http://www.bayerninfo.de/webcams/images/A92Munich-Deggendorf/a92-km001-brd.jpg</string>
+		<string>http://www.bayerninfo.de/webcams/images/A92Munich-Deggendorf/mobil210011.jpg</string>
+		<string>http://www.bayerninfo.de/webcams/images/A92Munich-Deggendorf/mobil211163.jpg</string>
+	</array>
+	<key>NRW-text-2</key>
+	<array>
+		<string>Dreieck München-Feldmoching </string>
+		<string>Dreieck München-Feldmoching </string>
+		<string>Oberschleißheim </string>
+		<string>Altdorf - Landshut-West, Pfettrachbrücke </string>
+	</array>
+	<key>NRW-detail-2</key>
+	<array>
+		<string>Blickrichtung süd - München, km 0 </string>
+		<string>Blickrichtung nord - Deggendorf, km 1 </string>
+		<string>Blickrichtung süd - München, km 7 </string>
+		<string>Blickrichtung süd - München, km 61</string>
+	</array>
+	<key>NRW-url-2</key>
+	<array>
+		<string>http://www.bayerninfo.de/webcams/images/A92Munich-Deggendorf/a92-km001-brm.jpg</string>
+		<string>http://www.bayerninfo.de/webcams/images/A92Munich-Deggendorf/a92-km001-brd.jpg</string>
+		<string>http://www.bayerninfo.de/webcams/images/A92Munich-Deggendorf/mobil210011.jpg</string>
+		<string>http://www.bayerninfo.de/webcams/images/A92Munich-Deggendorf/mobil211163.jpg</string>
+	</array>
+	<key>NRW-text-3</key>
+	<array>
+		<string>A1 Kreuz Unna nördl. Richtung Norden, Bremen</string>
+		<string>A1 Kreuz Unna nördl. Richtung Süden, Köln</string>
+		<string>A1 Kreuz Unna südl. Richtung Norden, Bremen</string>
+		<string>A1 Kreuz Unna südl. Richtung Süden, Köln</string>
+		<string>A1 TR Lichtendorf Richtung Norden, Bremen</string>
+		<string>A1 TR Lichtendorf Richtung Süden, Köln</string>
+	</array>
+	<key>NRW-url-3</key>
+	<array>
+		<string>http://camplugin.avinotec.de/pepimage/13023573231821910975.jpg</string>
+		<string>http://camplugin.avinotec.de/pepimage/12926206031280409290.jpg</string>
+		<string>http://camplugin.avinotec.de/pepimage/16969943711827522899.jpg</string>
+		<string>http://camplugin.avinotec.de/pepimage/18656865941483506027.jpg</string>
+		<string>http://camplugin.avinotec.de/pepimage/11326379591118848931.jpg</string>
+		<string>http://camplugin.avinotec.de/pepimage/14210055162096430481.jpg</string>
+	</array>
+	<key>NRW-text-4</key>
+	<array>
+		<string>A2 Dortmund Mengede Richtung Osten, Hamm</string>
+		<string>A2 Dortmund Mengede Westen, Bottrop</string>
+	</array>
+	<key>NRW-url-4</key>
+	<array>
+		<string>http://camplugin.avinotec.de/pepimage/20942848151272594745.jpg</string>
+		<string>http://camplugin.avinotec.de/pepimage/20576487911720533278.jpg</string>
+	</array>
+	<key>NRW-text-5</key>
+	<array>
+		<string>A3 Oberhausen Lirich Richtung Norden, Emmerich </string>
+		<string>A3 Oberhausen Lirich Richtung Süden, Köln </string>
+		<string>A3 Kreuz Oberhausen Richtung Norden, Emmerich </string>
+		<string>A3 Kreuz Oberhausen Richtung Süden, Duisburg </string>
+	</array>
+	<key>NRW-url-5</key>
+	<array>
+		<string>http://camplugin.avinotec.de/pepimage/12380960941731146194.jpg</string>
+		<string>http://camplugin.avinotec.de/pepimage/21344841021940809470.jpg</string>
+		<string>http://camplugin.avinotec.de/pepimage/10589914101339215608.jpg</string>
+		<string>http://camplugin.avinotec.de/pepimage/14846610811680757643.jpg</string>
+	</array>
+	<key>NRW-text-6</key>
+	<array>
+		<string>A3 Duisburg Richtung Kreuz Kaiserberg Norden, Oberhausen</string>
+		<string>A3 Duisburg Richtung Süden, Köln</string>
+	</array>
+	<key>NRW-url-6</key>
+	<array>
+		<string>http://camplugin.avinotec.de/pepimage/13415306142055873285.jpg</string>
+		<string>http://camplugin.avinotec.de/pepimage/17186451041815626653.jpg</string>
+	</array>
+	<key>NRW-text-7</key>
+	<array>
+		<string>A3 Köln Mühlheim Richtung Norden, Düsseldorf</string>
+		<string>A3 Köln Mühlheim Richtung Süden, Köln</string>
+	</array>
+	<key>NRW-url-7</key>
+	<array>
+		<string>http://camplugin.avinotec.de/pepimage/14384013941859664973.jpg</string>
+		<string>http://camplugin.avinotec.de/pepimage/18617722982096917576.jpg</string>
+	</array>
+	<key>NRW-text-8</key>
+	<array>
+		<string>A4 Aachen Richtung Osten, Köln</string>
+		<string>A554 Aachen Richtung Osten, Köln</string>
+	</array>
+	<key>NRW-url-8</key>
+	<array>
+		<string>http://camplugin.avinotec.de/pepimage/16613959331283043138.jpg</string>
+		<string>http://camplugin.avinotec.de/pepimage/16048677541764721944.jpg</string>
+	</array>
+	<key>NRW-text-9</key>
+	<array>
+		<string>A4 Köln-West Richtung Osten, Olpe</string>
+		<string>A4 Köln-West Richtung Westen, Aachen</string>
+		<string>A4 Köln-Süd Richtung Osten, Rheinbrücke - Olpe</string>
+		<string>A4 Köln-Süd Richtung Westen, Aachen</string>
+		<string>A4 Köln-Poll Richtung Osten, Olpe</string>
+		<string>A4 Köln-Poll Richtung Westen, Rheinbrücke - Aachen</string>
+		<string>A4 Köln Ost Richtung Osten, Olpe</string>
+		<string>A4 Köln Ost Richtung Westen, Kön </string>
+	</array>
+	<key>NRW-url-9</key>
+	<array>
+		<string>http://camplugin.avinotec.de/pepimage/12450555611494711572.jpg</string>
+		<string>http://camplugin.avinotec.de/pepimage/12777276572077576932.jpg</string>
+		<string>http://camplugin.avinotec.de/pepimage/21205644512059969887.jpg</string>
+		<string>http://camplugin.avinotec.de/pepimage/19694294641608245827.jpg</string>
+		<string>http://camplugin.avinotec.de/pepimage/12848513161472635880.jpg</string>
+		<string>http://camplugin.avinotec.de/pepimage/13627321971965685315.jpg</string>
+		<string>http://camplugin.avinotec.de/pepimage/12698298231618052306.jpg</string>
+		<string>http://camplugin.avinotec.de/pepimage/11592593461786373536.jpg</string>
+	</array>
+	<key>NRW-text-10</key>
+	<array>
+		<string>A31 Dreieck Bottrop Richtung Norden, Emden</string>
+		<string>A31 Dreieck Bottrop Richtung Süden, Bottrop</string>
+	</array>
+	<key>NRW-url-10</key>
+	<array>
+		<string>http://camplugin.avinotec.de/pepimage/19300263181891232930.jpg</string>
+		<string>http://camplugin.avinotec.de/pepimage/17221955891332421007.jpg</string>
+	</array>
+	<key>NRW-text-11</key>
+	<array>
+		<string>A42 Duisburg Neumühl Richtung Osten , Dortmund</string>
+		<string>A42 Duisburg Neumühl Richtung Westen, Kamp-Lintfort</string>
+		<string>A42 Oberhausen Richtung Osten , Dortmund</string>
+		<string>A42 Oberhausen Richtung Westen, Duisburg</string>
+		<string>A42 Kreuz Herne Richtung Osten , Dortmund</string>
+		<string>A42 Kreuz Herne Richtung Westen, Duisburg</string>
+	</array>
+	<key>NRW-url-11</key>
+	<array>
+		<string>http://camplugin.avinotec.de/pepimage/20369034062008767245.jpg</string>
+		<string>http://camplugin.avinotec.de/pepimage/19019103052005140719.jpg</string>
+		<string>http://camplugin.avinotec.de/pepimage/16723640511522264350.jpg</string>
+		<string>http://camplugin.avinotec.de/pepimage/12568715131649152342.jpg</string>
+		<string>http://camplugin.avinotec.de/pepimage/13842219761330173390.jpg</string>
+		<string>http://camplugin.avinotec.de/pepimage/10666103661443636564.jpg</string>
+	</array>
+	<key>NRW-text-12</key>
+	<array>
+		<string>A43 Herne Richtung Norden, Münster</string>
+		<string>A43 Herne Richtung Süden, Wuppertal</string>
+	</array>
+	<key>NRW-url-12</key>
+	<array>
+		<string>http://camplugin.avinotec.de/pepimage/11936904941344956506.jpg</string>
+		<string>http://camplugin.avinotec.de/pepimage/20329392421513339153.jpg</string>
+	</array>
+	<key>NRW-text-13</key>
+	<array>
+		<string>A45 Kreuz Dortmund Nordwest Richtung Norden, Recklinghausen</string>
+		<string>A45 Kreuz Dortmund Nordwest Richtung Süden, Frankfurt</string>
+		<string>A45 Kreuz Dortmund West Richtung Norden, Recklinghausen</string>
+		<string>A45 Kreuz Dortmund West Richtung Süden, Frankfurt</string>
+		<string>A45 Kreuz Westhofen Richtung Norden, Dortmund</string>
+		<string>A45 Kreuz Westhofen Richtung Süden, Frankfurt</string>
+		<string>A45 Kreuz Hagen Richtung Norden, Dortmund</string>
+		<string>A45 Kreuz Hagen Richtung Süden, Frankfurt</string>
+		<string>A45 Lennetalbrücke Richtung Norden, Dortmund</string>
+		<string>A45 Lennetalbrücke Richtung Süden, Lüdenscheid</string>
+	</array>
+	<key>NRW-url-13</key>
+	<array>
+		<string>http://camplugin.avinotec.de/pepimage/15601360701900782134.jpg</string>
+		<string>http://camplugin.avinotec.de/pepimage/13757622111581798611.jpg</string>
+		<string>http://camplugin.avinotec.de/pepimage/20256191231463627770.jpg</string>
+		<string>http://camplugin.avinotec.de/pepimage/18034355081512129277.jpg</string>
+		<string>http://camplugin.avinotec.de/pepimage/17135951451123270027.jpg</string>
+		<string>http://camplugin.avinotec.de/pepimage/14262015161257412685.jpg</string>
+		<string>http://camplugin.avinotec.de/pepimage/18853008731089598864.jpg</string>
+		<string>http://camplugin.avinotec.de/pepimage/16712201961209484297.jpg</string>
+		<string>http://camplugin.avinotec.de/pepimage/16571963451563503176.jpg</string>
+		<string>http://camplugin.avinotec.de/pepimage/12441576361977974848.jpg</string>
+	</array>
+	<key>NRW-text-14</key>
+	<array>
+		<string>A46 Düsseldorf Süd Richtung Osten, Wuppertal</string>
+		<string>A46 Düsseldorf Süd Richtung Westen, Neuss</string>
+	</array>
+	<key>NRW-url-14</key>
+	<array>
+		<string>http://camplugin.avinotec.de/pepimage/17618909821986478626.jpg</string>
+		<string>http://camplugin.avinotec.de/pepimage/13603759471467537215.jpg</string>
+	</array>
+	<key>NRW-text-15</key>
+	<array>
+		<string>A46 Wuppertal Katernberg Richtung Osten, Dortmund</string>
+		<string>A46 Wuppertal Katernberg Richtung Westen, Düsseldorf</string>
+		<string>A46 Wuppertal Nord Richtung Osten, Dortmund</string>
+		<string>A46 Wuppertal Nord Richtung Westen, Düsseldorf</string>
+	</array>
+	<key>NRW-url-15</key>
+	<array>
+		<string>http://camplugin.avinotec.de/pepimage/11409566261182774073.jpg</string>
+		<string>http://camplugin.avinotec.de/pepimage/12549533841404531233.jpg</string>
+		<string>http://camplugin.avinotec.de/pepimage/15059312061653307495.jpg</string>
+		<string>http://camplugin.avinotec.de/pepimage/20463788062133146032.jpg</string>
+	</array>
+	<key>NRW-text-16</key>
+	<array>
+		<string>A52 Ratingen Tiefenbroich Richtung Norden, Essen</string>
+		<string>A52 Ratingen Tiefenbroich Richtung Süden, Düsseldorf</string>
+		<string>A52 Kreuz Breitscheid Richtung Norden, Essen</string>
+		<string>A52 Kreuz Breitscheid Richtung Süden, Düsseldorf</string>
+	</array>
+	<key>NRW-url-16</key>
+	<array>
+		<string>http://camplugin.avinotec.de/pepimage/16444482831318102336.jpg</string>
+		<string>http://camplugin.avinotec.de/pepimage/20578059711034039167.jpg</string>
+		<string>http://camplugin.avinotec.de/pepimage/12986447221597366309.jpg</string>
+		<string>http://camplugin.avinotec.de/pepimage/13464148182053903729.jpg</string>
+	</array>
+	<key>NRW-text-17</key>
+	<array>
+		<string>A57 Kreuz Meerbusch Richtung Norden, Kleve</string>
+		<string>A57 Kreuz Meerbusch Richtung Süden, Köln </string>
+		<string>A57 Kreuz Kaarst Richtung Norden, Krefeld</string>
+		<string>A57 Kreuz Kaarst Richtung Süden, Köln</string>
+		<string>A57 Dreieck Neuss-West Richtung Norden, Krefeld</string>
+		<string>A57 Dreieck Neuss-West Richtung Süden, Köln</string>
+		<string>A57 Neuss Reuschenberg Richtung Norden, Krefeld</string>
+		<string>A57 Neuss Reuschenberg Richtung Süden, Köln</string>
+		<string>A57 Neuss Hafen Richtung Norden, Krefeld</string>
+		<string>A57 Neuss Hafen Richtung Süden, Köln</string>
+	</array>
+	<key>NRW-url-17</key>
+	<array>
+		<string>http://camplugin.avinotec.de/pepimage/21082785781122062990.jpg</string>
+		<string>http://camplugin.avinotec.de/pepimage/19784946441413715462.jpg</string>
+		<string>http://camplugin.avinotec.de/pepimage/13440079391285936515.jpg</string>
+		<string>http://camplugin.avinotec.de/pepimage/15866475431479153497.jpg</string>
+		<string>http://camplugin.avinotec.de/pepimage/12424293241115592078.jpg</string>
+		<string>http://camplugin.avinotec.de/pepimage/15932743401818116068.jpg</string>
+		<string>http://camplugin.avinotec.de/pepimage/16189334751483915151.jpg</string>
+		<string>http://camplugin.avinotec.de/pepimage/15256508152044738911.jpg</string>
+		<string>http://camplugin.avinotec.de/pepimage/10691068881776794037.jpg</string>
+		<string>http://camplugin.avinotec.de/pepimage/14847393121416445875.jpg</string>
+	</array>
+	<key>NRW-text-18</key>
+	<array>
+		<string>A61 Güderrath Richtung Venlo</string>
+		<string>A61 Güderrath Richtung Koblenz</string>
+	</array>
+	<key>NRW-url-18</key>
+	<array>
+		<string>http://camplugin.avinotec.de/pepimage/18495981761517808481.jpg</string>
+		<string>http://camplugin.avinotec.de/pepimage/10099337481755349956.jpg</string>
+	</array>
+	<key>NRW-text-19</key>
+	<array>
+		<string>A555 Bonn Nord Richtung Köln</string>
+		<string>A555 Bonn Nord Richtung Köln</string>
+	</array>
+	<key>NRW-url-19</key>
+	<array>
+		<string>http://camplugin.avinotec.de/pepimage/17980313202121007519.jpg</string>
+		<string>http://camplugin.avinotec.de/pepimage/18430341931869348301.jpg</string>
+	</array>
+	<key>NRW-text-20</key>
+	<array>
+		<string>Kreuz Bonn Nord Richtung Norden, Siegburg</string>
+		<string>Kreuz Bonn Nord Richtung Süden, Meckenheim</string>
+	</array>
+	<key>NRW-url-20</key>
+	<array>
+		<string>http://camplugin.avinotec.de/pepimage/12872298661896659272.jpg</string>
+		<string>http://camplugin.avinotec.de/pepimage/21356983132074921784.jpg</string>
+	</array>
+	<key>rlp-text-1</key>
+	<array>
+		<string>AS Kaiserslautern Einsiedelerhof</string>
+		<string>AS Kaiserslautern</string>
+		<string>AS Kaiserslautern Ost</string>
+		<string>AS Enkenbach - Alsenborn</string>
+		<string>AS Grünstadt</string>
+		<string>Frankenthal - Grünstadt</string>
+		<string>Kreuz Frankenthal</string>
+		<string>AS Frankenthal</string>
+	</array>
+	<key>rlp-url-1</key>
+	<array>
+		<string>http://verkehr.rlp.de/syncdata/cam/220/thumb_640x480.jpg</string>
+		<string>http://verkehr.rlp.de/syncdata/cam/180/thumb_640x480.jpg</string>
+		<string>http://verkehr.rlp.de/syncdata/cam/165/thumb_640x480.jpg</string>
+		<string>http://verkehr.rlp.de/syncdata/cam/155/thumb_640x480.jpg</string>
+		<string>http://verkehr.rlp.de/syncdata/cam/125/thumb_640x480.jpg</string>
+		<string>http://verkehr.rlp.de/syncdata/cam/120/thumb_640x480.jpg</string>
+		<string>http://verkehr.rlp.de/syncdata/cam/115/thumb_640x480.jpg</string>
+		<string>http://verkehr.rlp.de/syncdata/cam/110/thumb_640x480.jpg</string>
+	</array>
+	<key>rlp-text-2</key>
+	<array>
+		<string>Leininger Berg</string>
+		<string>AS Wattenheim</string>
+		<string>Wattenheim - Enkenbach</string>
+		<string>Enkenbach Alsenborn</string>
+		<string>Kaiserslautern</string>
+		<string>Kaiserslautern West</string>
+		<string>Kaiserslautern Einsiedlerhof</string>
+		<string>Kaiserslautern Höllenplacken</string>
+		<string>Bruchmühlbach Misau</string>
+	</array>
+	<key>rlp-url-2</key>
+	<array>
+		<string>http://verkehr.rlp.de/syncdata/cam/130/thumb_640x480.jpg</string>
+		<string>http://verkehr.rlp.de/syncdata/cam/135/thumb_640x480.jpg</string>
+		<string>http://verkehr.rlp.de/syncdata/cam/160/thumb_640x480.jpg</string>
+		<string>http://verkehr.rlp.de/syncdata/cam/170/thumb_640x480.jpg</string>
+		<string>http://verkehr.rlp.de/syncdata/cam/191/thumb_640x480.jpg</string>
+		<string>http://verkehr.rlp.de/syncdata/cam/705/thumb_640x480.jpg</string>
+		<string>http://verkehr.rlp.de/syncdata/cam/205/thumb_640x480.jpg</string>
+		<string>http://verkehr.rlp.de/syncdata/cam/700/thumb_640x480.jpg</string>
+		<string>http://verkehr.rlp.de/syncdata/cam/695/thumb_640x480.jpg</string>
+	</array>
+	<key>rlp-text-3</key>
+	<array>
+		<string>AD Mainz</string>
+		<string>Mainz Süd</string>
+		<string>Hechtsheim-West</string>
+		<string>Mainz Weisenau</string>
+		<string>Mainz Weisenau</string>
+	</array>
+	<key>rlp-url-3</key>
+	<array>
+		<string>http://verkehr.rlp.de/syncdata/cam/355/thumb_640x480.jpg</string>
+		<string>http://verkehr.rlp.de/syncdata/cam/335/thumb_640x480.jpg</string>
+		<string>http://verkehr.rlp.de/syncdata/cam/325/thumb_640x480.jpg</string>
+		<string>http://verkehr.rlp.de/syncdata/cam/317/thumb_640x480.jpg</string>
+		<string>http://verkehr.rlp.de/syncdata/cam/310/thumb_640x480.jpg</string>
+	</array>
+	<key>rlp-text-4</key>
+	<array>
+		<string>Ginsheim Gustavburg</string>
+		<string>Mainz Weisenau</string>
+		<string>Hechtsheim-Ost</string>
+		<string>Hechtsheim-West</string>
+		<string>Mainz Finthen</string>
+	</array>
+	<key>rlp-url-4</key>
+	<array>
+		<string>http://verkehr.rlp.de/syncdata/cam/305/thumb_640x480.jpg</string>
+		<string>http://verkehr.rlp.de/syncdata/cam/315/thumb_640x480.jpg</string>
+		<string>http://verkehr.rlp.de/syncdata/cam/400/thumb_640x480.jpg</string>
+		<string>http://verkehr.rlp.de/syncdata/cam/330/thumb_640x480.jpg</string>
+		<string>http://verkehr.rlp.de/syncdata/cam/350/thumb_640x480.jpg</string>
+	</array>
+	<key>rlp-text-5</key>
+	<array>
+		<string>AS Alzey</string>
+		<string>AS Gundersheim</string>
+		<string>AS Worms/Mörstadt</string>
+		<string>Kreuz Frankenthal</string>
+	</array>
+	<key>rlp-url-5</key>
+	<array>
+		<string>http://verkehr.rlp.de/syncdata/cam/1810/thumb_640x480.jpg</string>
+		<string>http://verkehr.rlp.de/syncdata/cam/1710/thumb_640x480.jpg</string>
+		<string>http://verkehr.rlp.de/syncdata/cam/1720/thumb_640x480.jpg</string>
+		<string>http://verkehr.rlp.de/syncdata/cam/117/thumb_640x480.jpg</string>
+	</array>
+	<key>rlp-text-6</key>
+	<array>
+		<string>Kreuz Ludwigshafen</string>
+		<string>AS Worms/Mörstadt</string>
+		<string>AS Alzey</string>
+	</array>
+	<key>rlp-url-6</key>
+	<array>
+		<string>http://verkehr.rlp.de/syncdata/cam/1740/thumb_640x480.jpg</string>
+		<string>http://verkehr.rlp.de/syncdata/cam/1715/thumb_640x480.jpg</string>
+		<string>http://verkehr.rlp.de/syncdata/cam/1820/thumb_640x480.jpg</string>
+	</array>
+	<key>rlp-text-7</key>
+	<array>
+		<string>Mainz Mombach</string>
+		<string>Mainz Gonsenheim</string>
+	</array>
+	<key>rlp-url-7</key>
+	<array>
+		<string>http://verkehr.rlp.de/syncdata/cam/385/thumb_640x480.jpg</string>
+		<string>http://verkehr.rlp.de/syncdata/cam/365/thumb_640x480.jpg</string>
+	</array>
+	<key>rlp-text-8</key>
+	<array>
+		<string>Mainz</string>
+		<string>Mainz Gonsenheim</string>
+	</array>
+	<key>rlp-url-8</key>
+	<array>
+		<string>http://verkehr.rlp.de/syncdata/cam/360/thumb_640x480.jpg</string>
+		<string>http://verkehr.rlp.de/syncdata/cam/380/thumb_640x480.jpg</string>
+	</array>
+	<key>rlp-text-9</key>
+	<array>
+		<string>Winnweiler</string>
+		<string>Klein-Winternheim</string>
+		<string>Mainz-Süd</string>
+	</array>
+	<key>rlp-url-9</key>
+	<array>
+		<string>http://verkehr.rlp.de/syncdata/cam/1610/thumb_640x480.jpg</string>
+		<string>http://verkehr.rlp.de/syncdata/cam/345/thumb_640x480.jpg</string>
+		<string>http://verkehr.rlp.de/syncdata/cam/175/thumb_640x480.jpg</string>
+	</array>
+	<key>rlp-text-10</key>
+	<array>
+		<string>Mainz-Süd</string>
+	</array>
+	<key>rlp-url-10</key>
+	<array>
+		<string>http://verkehr.rlp.de/syncdata/cam/340/thumb_640x480.jpg</string>
+	</array>
+	<key>rlp-text-11</key>
+	<array>
+		<string>AD Ludwigshafen</string>
+		<string>Landau-Nord</string>
+		<string>Landau-Nord</string>
+	</array>
+	<key>rlp-url-11</key>
+	<array>
+		<string>http://verkehr.rlp.de/syncdata/cam/1750/thumb_640x480.jpg</string>
+		<string>http://verkehr.rlp.de/syncdata/cam/800/thumb_640x480.jpg</string>
+		<string>http://verkehr.rlp.de/syncdata/cam/795/thumb_640x480.jpg</string>
+	</array>
+	<key>rlp-text-12</key>
+	<array>
+		<string>Hassloch</string>
+	</array>
+	<key>rlp-url-12</key>
+	<array>
+		<string>http://verkehr.rlp.de/syncdata/cam/1910/thumb_640x480.jpg</string>
+	</array>
+	<key>rlp-text-13</key>
+	<array>
+		<string>Maximiliansau</string>
+		<string>Maximiliansau</string>
+	</array>
+	<key>rlp-url-13</key>
+	<array>
+		<string>http://verkehr.rlp.de/syncdata/cam/815/thumb_640x480.jpg</string>
+		<string>http://verkehr.rlp.de/syncdata/cam/820/thumb_640x480.jpg</string>
+	</array>
+	<key>rlp-text-14</key>
+	<array>
+		<string>Rhein</string>
+		<string>Wörth-Droschberg</string>
+	</array>
+	<key>rlp-url-14</key>
+	<array>
+		<string>http://verkehr.rlp.de/syncdata/cam/825/thumb_640x480.jpg</string>
+		<string>http://verkehr.rlp.de/syncdata/cam/810/thumb_640x480.jpg</string>
+	</array>
+	<key>rlp-text-15</key>
+	<array>
+		<string>Pirmasens</string>
+	</array>
+	<key>rlp-url-15</key>
+	<array>
+		<string>http://verkehr.rlp.de/syncdata/cam/600/thumb_640x480.jpg</string>
+	</array>
+	<key>rlp-text-16</key>
+	<array>
+		<string>Koblenz</string>
+		<string>Koblenz-Nord</string>
+	</array>
+	<key>rlp-url-16</key>
+	<array>
+		<string>http://verkehr.rlp.de/syncdata/cam/010/thumb_640x480.jpg</string>
+		<string>http://verkehr.rlp.de/syncdata/cam/1120/thumb_640x480.jpg</string>
+	</array>
+	<key>rlp-text-17</key>
+	<array>
+		<string>Saarkreisel</string>
+	</array>
+	<key>rlp-url-17</key>
+	<array>
+		<string>http://verkehr.rlp.de/syncdata/cam/1110/thumb_640x480.jpg</string>
+	</array>
+	<key>rlp-text-18</key>
+	<array>
+		<string>Koblenz</string>
+		<string>Koblenz</string>
+		<string>Koblenz</string>
+		<string>Koblenz</string>
+		<string>Koblenz</string>
+		<string>Koblenz</string>
+		<string>Koblenz</string>
+		<string>Koblenz</string>
+		<string>Koblenz</string>
+		<string>Koblenz</string>
+		<string>Koblenz</string>
+		<string>Koblenz</string>
+		<string>Koblenz</string>
+		<string>Koblenz</string>
+		<string>Koblenz</string>
+		<string>Koblenz</string>
+	</array>
+	<key>rlp-url-18</key>
+	<array>
+		<string>http://verkehr.rlp.de/syncdata/cam/1130/thumb_640x480.jpg</string>
+		<string>http://verkehr.rlp.de/syncdata/cam/1140/thumb_640x480.jpg</string>
+		<string>http://verkehr.rlp.de/syncdata/cam/1310/thumb_640x480.jpg</string>
+		<string>http://verkehr.rlp.de/syncdata/cam/1320/thumb_640x480.jpg</string>
+		<string>http://verkehr.rlp.de/syncdata/cam/1330/thumb_640x480.jpg</string>
+		<string>http://verkehr.rlp.de/syncdata/cam/1340/thumb_640x480.jpg</string>
+		<string>http://verkehr.rlp.de/syncdata/cam/1350/thumb_640x480.jpg</string>
+		<string>http://verkehr.rlp.de/syncdata/cam/1360/thumb_640x480.jpg</string>
+		<string>http://verkehr.rlp.de/syncdata/cam/1370/thumb_640x480.jpg</string>
+		<string>http://verkehr.rlp.de/syncdata/cam/1380/thumb_640x480.jpg</string>
+		<string>http://verkehr.rlp.de/syncdata/cam/1390/thumb_640x480.jpg</string>
+		<string>http://verkehr.rlp.de/syncdata/cam/1400/thumb_640x480.jpg</string>
+		<string>http://verkehr.rlp.de/syncdata/cam/1410/thumb_640x480.jpg</string>
+		<string>http://verkehr.rlp.de/syncdata/cam/1420/thumb_640x480.jpg</string>
+		<string>http://verkehr.rlp.de/syncdata/cam/1430/thumb_640x480.jpg</string>
+		<string>http://verkehr.rlp.de/syncdata/cam/1440/thumb_640x480.jpg</string>
+	</array>
+	<key>rlp-text-19</key>
+	<array>
+		<string>B52 Moselbrücke</string>
+		<string>B52 Moselbrücke</string>
+	</array>
+	<key>rlp-url-19</key>
+	<array>
+		<string>http://verkehr.rlp.de/syncdata/cam/2110/thumb_640x480.jpg</string>
+		<string>http://verkehr.rlp.de/syncdata/cam/2120/thumb_640x480.jpg</string>
+	</array>
+	<key>rlp-text-20</key>
+	<array>
+		<string>Mainz Feuerwache 2</string>
+		<string>Mainz Pariser Straße</string>
+		<string>Mainz Saarstraße</string>
+		<string>Mainz Wormser Straße</string>
+		<string>Mainz Theodor-Heus-Brücke</string>
+		<string>Mainz Theodor-Heus-Brücke</string>
+	</array>
+	<key>rlp-url-20</key>
+	<array>
+		<string>http://verkehr.rlp.de/syncdata/cam/2510/thumb_640x480.jpg</string>
+		<string>http://verkehr.rlp.de/syncdata/cam/2520/thumb_640x480.jpg</string>
+		<string>http://verkehr.rlp.de/syncdata/cam/2530/thumb_640x480.jpg</string>
+		<string>http://verkehr.rlp.de/syncdata/cam/2540/thumb_640x480.jpg</string>
+		<string>http://verkehr.rlp.de/syncdata/cam/2550/thumb_640x480.jpg</string>
+		<string>http://verkehr.rlp.de/syncdata/cam/2560/thumb_640x480.jpg</string>
+	</array>
+</dict>
+</plist>
