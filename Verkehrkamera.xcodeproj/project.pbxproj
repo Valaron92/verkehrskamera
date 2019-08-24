@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		282BDE682311C5150007552F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 282BDE672311C5150007552F /* README.md */; };
 		28918F6A18B73592009A4A6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28918F6918B73592009A4A6F /* Foundation.framework */; };
 		28918F6C18B73592009A4A6F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28918F6B18B73592009A4A6F /* CoreGraphics.framework */; };
 		28918F6E18B73592009A4A6F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28918F6D18B73592009A4A6F /* UIKit.framework */; };
@@ -53,6 +54,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		282BDE672311C5150007552F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		28918F6618B73592009A4A6F /* Verkehrkamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Verkehrkamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28918F6918B73592009A4A6F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		28918F6B18B73592009A4A6F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -156,6 +158,7 @@
 		28918F5D18B73592009A4A6F = {
 			isa = PBXGroup;
 			children = (
+				282BDE672311C5150007552F /* README.md */,
 				6F0A51471C54399A00538547 /* analyt */,
 				6F5550BA1BC07D54003F8B07 /* Media.xcassets */,
 				28918F6F18B73592009A4A6F /* Verkehrkamera */,
@@ -430,6 +433,7 @@
 				6F014C911C4643A800CC1780 /* MasterViewController.xib in Resources */,
 				6F5B0ED31C307D9E00E32CB6 /* agb.html in Resources */,
 				6FE3BA281BC2C26C002C88F5 /* Kameras.plist in Resources */,
+				282BDE682311C5150007552F /* README.md in Resources */,
 				6F0A515F1C543F7600538547 /* GoogleService-Info.plist in Resources */,
 				6F5B0ED11C30796600E32CB6 /* InfoView.xib in Resources */,
 				6F5B0ED51C307F8800E32CB6 /* appstyle.css in Resources */,
