@@ -26,10 +26,10 @@
 
 - (void)viewDidLoad
 {
-    self.navigationItem.title =  @"AGB";
+    self.navigationItem.title =  NSLocalizedString(@"AGB","");
     [super viewDidLoad];
     UIBarButtonItem *flipButton = [[UIBarButtonItem alloc]
-     initWithTitle:@"Feedback / Support"
+     initWithTitle:NSLocalizedString(@"Feedback / Support","")
      style:UIBarButtonItemStylePlain
      target:self
      action:@selector(sendEmailAction:)];

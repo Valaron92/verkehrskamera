@@ -26,19 +26,39 @@
 - (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:YES];
     self.title = Tittel;
-    _lblTimerExample3.text = @"01:02";
+    _lblTimerExample3.text = NSLocalizedString(@"01:02","");
     NSLog(@"%@",_lblTimerExample3);
 }
 
 - (void)viewDidAppear:(BOOL)animated{
     self.downloadedMutableData = [[NSMutableData alloc] init];
      NSLog(@"%@", htmlFile);
-    NSURLRequest *urlRequest = [NSURLRequest requestWithURL:[NSURL URLWithString:htmlFile]
-                                                cachePolicy:NSURLRequestReloadIgnoringLocalCacheData
-                                            timeoutInterval:60.0];
-    self.connectionManager = [[NSURLConnection alloc] initWithRequest:urlRequest delegate:self];
+    
+    NSURL *url = [NSURL URLWithString:htmlFile];
+    
+    // 2
+    NSURLSessionDownloadTask *downloadPhotoTask =[[NSURLSession sharedSession]
+                                                  downloadTaskWithURL:url completionHandler:^(NSURL *location, NSURLResponse *response, NSError *error) {
+                                                      
+                                                      //                                                      [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:NO];
+                                                      //                                                      self.pleaseWait.hidden = YES;
+                                                      
+                                                      // 3
+                                                      UIImage *downloadedImage = [UIImage imageWithData:
+                                                                                  [NSData dataWithContentsOfURL:location]];
+                                                      
+                                                      dispatch_async(dispatch_get_main_queue(), ^{
+                                                          NSLog(@"updating UIImageView");
+                                                          self.imageb.image = downloadedImage;
+                                                      });
+                                                  }];
+    
+    // 4
+    [downloadPhotoTask resume];
+    
+
     UIBarButtonItem *flipButton = [[UIBarButtonItem alloc]
-                                   initWithTitle:@"Reload"
+                                   initWithTitle:NSLocalizedString(@"Reload","")
                                    style:UIBarButtonItemStyleDone
                                    target:self
                                    action:@selector(nachladen)];
@@ -65,13 +85,32 @@
     timerExample3 = [[MZTimerLabel alloc] initWithLabel:_lblTimerExample3 andTimerType:MZTimerLabelTypeTimer];
     [timerExample3 setCountDownTime:1*61];
     [timerExample3 startWithEndingBlock:^(NSTimeInterval countTime) {
-        timerExample3.timeLabel.text = @"00:00";
-    
-    timerExample3.delegate = self;
+        self->timerExample3.timeLabel.text = NSLocalizedString(@"00:00","");
+        self->timerExample3.delegate = self;
     }];
     NSLog(@"3 %@",_lblTimerExample3);
+    
+    NSURL *url = [NSURL URLWithString:htmlFile];
+    
+    // 2
+    NSURLSessionDownloadTask *downloadPhotoTask =[[NSURLSession sharedSession] downloadTaskWithURL:url completionHandler:^(NSURL *location, NSURLResponse *response, NSError *error) {
+        
+                                                      UIImage *downloadedImage = [UIImage imageWithData:
+                                                                                  [NSData dataWithContentsOfURL:location]];
+                                                      
+                                       
+                                                      dispatch_async(dispatch_get_main_queue(), ^{
+                                                          NSLog(@"updating UIImageView");
+                                                          self.imageb.image = downloadedImage;
+                                                          self.progressView.hidden = YES;
+                                                      });
+                                                  }];
+    
+    // 4
+    [downloadPhotoTask resume];
+   
 }
-
+/*
 -(void)viewDidUnload{
     self.title = nil;
     self.imageb.image = nil;
@@ -83,7 +122,8 @@
     self.imageScrollView = nil;
     [self.imageScrollView setMaximumZoomScale:5.0f];
     [self.imageScrollView setClipsToBounds:YES];
-}
+}*/
+
 -(void)viewDidDisappear:(BOOL)animated{
     self.title = nil;
     self.imageb.image = nil;
@@ -96,17 +136,25 @@
 
 -(void) nachladen{
     self.downloadedMutableData = [[NSMutableData alloc] init];
-    NSURLRequest *urlRequest = [NSURLRequest requestWithURL:[NSURL URLWithString:htmlFile]
-                                                cachePolicy:NSURLRequestReloadIgnoringLocalCacheData
-                                            timeoutInterval:60.0];
-    self.counter++;
-    NSString *myNumber = [[NSString alloc]initWithFormat:@"%d", self.counter];
-    NSLog(@"%@", myNumber);
-    self.connectionManager = [[NSURLConnection alloc] initWithRequest:urlRequest delegate:self];
+    NSURL *url = [NSURL URLWithString:htmlFile];
+    
+    // 2
+    NSURLSessionDownloadTask *downloadPhotoTask =[[NSURLSession sharedSession]
+                                                  downloadTaskWithURL:url completionHandler:^(NSURL *location, NSURLResponse *response, NSError *error) {
+                                                      
+                                    
+                                        UIImage *downloadedImage = [UIImage imageWithData:[NSData dataWithContentsOfURL:location]];
+                                                      dispatch_async(dispatch_get_main_queue(), ^{
+                                                          NSLog(@"updating UIImageView");
+                                                          self.imageb.image = downloadedImage;
+                                                          [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:NO];
+                                                      });
+                                                  }];
+
+    [downloadPhotoTask resume];
     NSLog(@"%@", htmlFile);
-}
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation{
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
+    [timerExample3 reset];
+    [timerExample3 start];
 }
 
 #pragma mark - Delegate Methods
@@ -130,8 +178,8 @@
 }
 
 -(void)connectionDidFinishLoading:(NSURLConnection *)connection {
-    self.imageb.image = [UIImage imageWithData:self.downloadedMutableData];
-    self.title = @"Fertig";
+//    self.imageb.image = [UIImage imageWithData:self.downloadedMutableData];
+    self.title = NSLocalizedString(@"Fertig","");
     [timerExample3 reset];
        [timerExample3 start];
     [self performSelector:@selector(zeigetitel) withObject:nil afterDelay:5];

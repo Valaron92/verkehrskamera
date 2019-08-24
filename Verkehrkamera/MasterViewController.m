@@ -71,7 +71,7 @@
     [self loadTutorials];
     self.tableView.rowHeight = UITableViewAutomaticDimension;
     UIBarButtonItem *flipButton = [[UIBarButtonItem alloc]
-                                   initWithTitle:@"Reload"
+                                   initWithTitle:NSLocalizedString(@"Reload","")
                                    style:UIBarButtonItemStyleDone
                                    target:self
                                    action:@selector(nachladen)];

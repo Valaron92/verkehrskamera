@@ -27,8 +27,11 @@ static NSString *const kTrackingPreferenceKey = @"allowTracking";
     self.window.rootViewController = self.navigationController;
     [self.window makeKeyAndVisible];
     [[UIApplication sharedApplication]statusBarOrientation];
-    [[UIApplication sharedApplication] setStatusBarHidden:NO withAnimation:UIStatusBarAnimationNone];
+//    [[UIApplication sharedApplication] setStatusBarHidden:NO withAnimation:UIStatusBarAnimationNone];
     return YES;
+}
+-(BOOL)prefersStatusBarHidden{
+    return NO;
 }
 
 @end

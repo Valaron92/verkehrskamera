@@ -22,22 +22,22 @@
     NSDictionary *dict = [[NSDictionary alloc] initWithContentsOfFile:path];
     
     if ([recipeNameUnter isEqualToString:@"Berlin"]){
-    self.navigationItem.title =  @"Berlin";
+    self.navigationItem.title =  NSLocalizedString(@"Berlin", "");
     text1 = [dict objectForKey:@"berlin-text"];
     url1 = [dict objectForKey:@"berlin-url"];
     }
     else if ([recipeNameUnter isEqualToString:@"Bremen"]){
-        self.navigationItem.title =  @"Bremen";
+        self.navigationItem.title =  NSLocalizedString(@"Bremen", "");
         text1 = [dict objectForKey:@"bremen-text"];
         url1 = [dict objectForKey:@"bremen-url"];
     }
     else if ([recipeNameUnter isEqualToString:@"Niedersachsen"]){
-        self.navigationItem.title =  @"Niedersachsen";
+        self.navigationItem.title =  NSLocalizedString(@"Niedersachsen", "");
         text1 = [dict objectForKey:@"niedersachsen-text"];
         url1 = [dict objectForKey:@"niedersachsen-url"];
     }
     else if ([recipeNameUnter isEqualToString:@"Hessen"]){
-        self.navigationItem.title =  @"Hessen";
+        self.navigationItem.title =  NSLocalizedString(@"Hessen", "");
         text1 = [dict objectForKey:@"hessen-text"];
         url1 = [dict objectForKey:@"hessen-url"];
     }
@@ -549,7 +549,7 @@
     }
     else if ([recipeNameUnter isEqualToString:@"Nordrhein Westfalen"]){
         if(indexPath.section == 0){
-            cell.textLabel.text = @"Kölner Autobahnkreuz kommt noch.";
+            cell.textLabel.text = NSLocalizedString(@"Kölner Autobahnkreuz kommt noch.","");
             //cell.textLabel.text = [text1 objectAtIndex:indexPath.row];
             //cell.detailTextLabel.text = [text1detail objectAtIndex:indexPath.row];
             
@@ -557,7 +557,7 @@
             
         }
         else if(indexPath.section == 1) {
-            cell.textLabel.text = @"Aachener Autobahnkreuz kommt noch.";
+            cell.textLabel.text = NSLocalizedString(@"Aachener Autobahnkreuz kommt noch.","");
             //cell.textLabel.text = [text2 objectAtIndex:indexPath.row];
             //cell.detailTextLabel.text = [text2detail objectAtIndex:indexPath.row];
         }

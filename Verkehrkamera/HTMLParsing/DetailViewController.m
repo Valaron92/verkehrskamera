@@ -52,7 +52,7 @@
     [self configureView];
 }
 
-- (void)viewDidUnload
+/*- (void)viewDidUnload
 {
     [super viewDidUnload];
     // Release any retained subviews of the main view.
@@ -60,7 +60,7 @@
     self.detailtext = nil;
     self.detailItem = nil;
     self.detailItemb = nil;
-}
+}*/
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

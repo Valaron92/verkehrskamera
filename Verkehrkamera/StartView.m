@@ -51,12 +51,12 @@
     [super viewDidLoad];
 #pragma Test
     UIBarButtonItem *flipButton = [[UIBarButtonItem alloc]
-                                   initWithTitle:@"Staumeldungen"
+                                   initWithTitle:NSLocalizedString(@"Staumeldungen","")
                                    style:UIBarButtonItemStylePlain
                                    target:self
                                    action:@selector(nachladen)];
     UIBarButtonItem *flipButtonb = [[UIBarButtonItem alloc]
-                                    initWithTitle:@"Info"
+                                    initWithTitle:NSLocalizedString(@"Info","")
                                     style:UIBarButtonItemStylePlain
                                     target:self
                                     action:@selector(nachladenb)];
@@ -236,7 +236,7 @@
         [super setEditing:NO animated:NO];
         [self.mainTableView setEditing:NO animated:NO];
         [self.mainTableView reloadData];
-        [self.navigationItem.leftBarButtonItem setTitle:@"Edit"];
+        [self.navigationItem.leftBarButtonItem setTitle:NSLocalizedString(@"Edit","")];
         [self.navigationItem.leftBarButtonItem setStyle:UIBarButtonItemStylePlain];
     }
     else
@@ -244,7 +244,7 @@
         [super setEditing:YES animated:YES];
         [self.mainTableView setEditing:YES animated:YES];
         [self.mainTableView reloadData];
-        [self.navigationItem.leftBarButtonItem setTitle:@"Fertig"];
+        [self.navigationItem.leftBarButtonItem setTitle:NSLocalizedString(@"Fertig","")];
         [self.navigationItem.leftBarButtonItem setStyle:UIBarButtonItemStyleDone];
     }
 }
